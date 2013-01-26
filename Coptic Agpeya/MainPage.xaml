@@ -1,0 +1,70 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Coptic_Agpeya.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="728"
+    FontFamily="{StaticResource PhoneFontFamilySemiLight}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="green"
+    SupportedOrientations="Portrait" Orientation="Portrait" Loaded="PhoneApplicationPage_Loaded">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="112.5"/>
+           
+            
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,8" Grid.RowSpan="2">
+            <TextBlock  x:Name="PageTitle" Text="Coptic Synaxarium" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontFamily="Segoe WP Light" Height="108" FontSize="80"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel"  Grid.Row="3" Margin="12,0,12,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="107*"/>
+                <ColumnDefinition Width="350*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image HorizontalAlignment="Left" Margin="101,-34,-115,-260" Name="image1" Stretch="Fill" Visibility="{StaticResource PhoneDarkThemeVisibility}" Source="Candle.png" Width="470" Grid.ColumnSpan="2"/>
+            <Image HorizontalAlignment="Left" Margin="140.5,206,-75,-16" Name="image2" Stretch="Fill" Visibility="{StaticResource PhoneLightThemeVisibility}" Source="prayinghands.png" Width="284"  Height="428" Grid.Column="1"/>
+            <ScrollViewer Grid.ColumnSpan="2">
+                <StackPanel Margin="12,0,0,0" >
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  FontSize="38" BorderBrush="Transparent" Content="Tout" Height="85" HorizontalAlignment="Left" Name="Prime" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Prime_Click" />
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  BorderBrush="Transparent" Content="Baba" FontSize="38" Height="85" HorizontalAlignment="Left"  Name="Terce" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Terce_Click" />
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  BorderBrush="Transparent" Content="Hator" FontSize="38" Height="85" HorizontalAlignment="Left"  Name="Sext" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Sext_Click" />
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  BorderBrush="Transparent" Content="Kiahk" FontSize="38" Height="85" HorizontalAlignment="Left"  Name="None" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="None_Click" />
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  BorderBrush="Transparent" Content="Toba" FontSize="38" Height="85" HorizontalAlignment="Left"  Name="Vespers" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Vespers_Click" />
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  BorderBrush="Transparent" Content="Amshir" FontSize="38" Height="85" HorizontalAlignment="Left" Name="Compline" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Compline_Click" />
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  BorderBrush="Transparent" Content="Baramhat" FontSize="38" Height="85" HorizontalAlignment="Left" Name="Midnight" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Midnight_Click" />
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  BorderBrush="Transparent" Content="Baramouda" FontSize="38" Height="85" HorizontalAlignment="Left" Name="Other" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" Click="Other_Click" />
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  BorderBrush="Transparent" Content="Bashons" FontSize="38" Height="85" HorizontalAlignment="Left"  Name="Bashons" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left"  />
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  BorderBrush="Transparent" Content="Paona" FontSize="38" Height="85" HorizontalAlignment="Left"  Name="Paona" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left"  />
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  BorderBrush="Transparent" Content="Abib" FontSize="38" Height="85" HorizontalAlignment="Left"  Name="Ahib" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left" />
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  BorderBrush="Transparent" Content="Mesra" FontSize="38" Height="85" HorizontalAlignment="Left" Name="Mesra" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left"  />
+                    <Button FontFamily="{StaticResource PhoneFontFamilySemiLight}"  BorderBrush="Transparent" Content="Nasie" FontSize="38" Height="85" HorizontalAlignment="Left" Name="Nasie" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Left"  />
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="About" Click="About" />
+                <shell:ApplicationBarMenuItem Text="Settings" Click="Settings"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

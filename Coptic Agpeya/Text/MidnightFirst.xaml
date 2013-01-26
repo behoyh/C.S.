@@ -1,0 +1,619 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Coptic_Agpeya.MidnightFirst"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="28"
+
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="800" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="COPTIC AGPEYA-First Watch" Style="{StaticResource PhoneTextNormalStyle}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ScrollViewer>
+                <StackPanel Margin="12,0,0,0">
+                    <TextBlock  Width="Auto" Height="Auto" TextWrapping="Wrap">
+					         <Run Foreground="{StaticResource PhoneAccentBrush}">
+						        INTRODUCTION TO EVERY HOUR
+					        </Run>
+					        <LineBreak/>
+
+					        In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.
+
+					        Kyrie eleison. Lord have mercy, Lord have mercy, Lord bless us. Amen.
+
+					        Glory to the Father, and to the Son, and to the Holy Spirit, now and forever and unto the ages of all ages. Amen.
+					        <LineBreak/>
+					        <Run Foreground="{StaticResource PhoneAccentBrush}">
+						        THE LORD'S PRAYER 
+					        </Run>
+					        <LineBreak/>
+						        Make us worthy to pray thankfully:
+
+						        Our Father Who art in heaven; hallowed be Thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread.  And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil, in Christ Jesus our Lord. For Thine is the kingdom, the power and the glory, forever. Amen.
+					        <LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                        
+					        <Run Foreground="{StaticResource PhoneAccentBrush}">
+ 						        THE PRAYER OF THANKSGIVING 
+					        </Run>
+					        <LineBreak/>
+					        Let us give thanks to the beneficent and merciful God, the Father of our Lord, God and Savior, Jesus Christ, for He has covered us, helped us, guarded us, accepted us unto Him, spared us, supported us, and brought us to this hour. Let us also ask Him, the Lord our God, the Almighty, to guard us in all peace this holy day and all the days of our life.
+
+					        O Master, Lord, God the Almighty, the Father of our Lord, God and Savior, Jesus Christ, we thank You for every condition, concerning every condition, and in every condition, for You have covered us, helped us, guarded us, accepted us unto You, spared us, supported us, and brought us to this hour.
+
+					        Therefore, we ask and entreat Your goodness, O Lover of mankind, to grant us to complete this holy day, and all the days of our life, in all peace with Your fear. All envy, all temptation, all the work of Satan, the counsel of wicked men, and the rising up of enemies, hidden and manifest, take them away from us, and from all Your people, and from this holy place that is Yours.
+
+					        But those things which are good and profitable do provide for us; for it is You Who have given us the authority to tread on serpents and scorpions, and upon all the power of the enemy.
+
+					        And lead us not into temptation, but deliver us from evil, by the grace, compassion and love of mankind, of Your Only-Begotten Son, our Lord, God and Savior, Jesus Christ, through Whom the glory, the honor, the dominion, and the adoration are due unto You, with Him, and the Holy Spirit, the Life-Giver, Who is of one essence with You, now and at all times, and unto the ages of all ages. Amen.
+					        <LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+					        <Run Foreground="{StaticResource PhoneAccentBrush}">
+						        PSALM 50 
+					        </Run>
+					        <LineBreak/>
+					        Have mercy upon me, O God, according to Your great mercy; and according to the multitude of Your compassions blot out my iniquity. Wash me thoroughly from my iniquity, and cleanse me from my sin. For I am conscious of my iniquity; and my sin is at all times before me.
+
+					        Against You only I have sinned, and done evil before You: that You might be just in Your sayings, and might overcome when You are judged. For, behold, I was conceived in iniquities, and in sins my mother conceived me.
+
+					        For, behold, You have loved the truth: You have manifested to me the hidden and unrevealed things of Your wisdom. You shall sprinkle me with Your hyssop, and I shall be purified: You shall wash me, and I shall be made whiter than snow. You shall make me to hear gladness and joy: the humbled bones shall rejoice.
+
+					        Turn away Your face from my sins, and blot out all my iniquities. Create in me a clean heart, O God; and renew a right spirit in my inward parts. Do not cast me away from Your face; and do not remove Your Holy Spirit from me. Give me the joy of Your salvation: and uphold me with a directing spirit. Then I shall teach the transgressors Your ways; and the ungodly men shall turn to You.
+
+					        Deliver me from blood, O God, the God of my salvation: and my tongue shall rejoice in Your righteousness. O Lord, You shall open my lips; and my mouth shall declare Your praise. For if You desired sacrifice, I would have given it: You do not take pleasure in burnt offerings. The sacrifice of God is a broken spirit: a broken and humbled heart God shall not despise.
+
+					            Do good, O Lord, in Your good pleasure to Zion; and let the walls of Jerusalem be built. Then You shall be pleased with sacrifices of righteousness, offering, and burnt sacrifices: then they shall offer calves upon Your altar. ALLELUIA.
+				        <LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+Then the worshipper says :
+<LineBreak/>
+Arise, you, O children of the light, to praise the Lord of Hosts, that He may grant us the salvation of our souls. When we stand in the flesh before You, take away from our minds the sleep of forgetfulness, and grant us alertness, in order that we understand how to stand up before You at the time of prayer, and send up to You the appropriate doxology, and win the forgiveness of our many sins.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 133 
+</Run>
+<LineBreak/>
+Behold, bless the Lord, O you the servants of the Lord, who stand in the house of the Lord, in the courts of the house of our God. In the nights lift up your hands unto the Holies, and bless the Lord. The Lord shall bless you out of Zion, He who made heaven and earth. ALLELUIA.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+
+Let my supplication come near before You; give me understanding according to Your word. Let my petition come before You; revive me according to Your word. Let my lips flow with praise, when You have taught me Your ordinances. Let my tongue speak of Your words; for all Your commandments are righteous. Let Your hand be for saving me; for I have desired Your commandments. I have longed for Your salvation, O Lord; and Your law is my meditation. My soul shall live, and praise You; and Your judgments shall help me. I have gone astray like a lost sheep; seek Your servant; for I have not forgotten Your commandments. 
+
+Glory to the Father, and to the Son, and to the Holy Spirit, now and forever and unto the ages of all ages. Amen.
+
+Glory to the Father, and to the Son, and to the Holy Spirit, now and forever and unto the ages of all ages, Amen.
+
+Glory to You O the good and lover of mankind. Hail to Your mother the Virgin and to all Your Saints. Glory to You, O Holy Trinity; have mercy upon us.
+
+Let God arise, and let His enemies be dispersed; and let all who hate His holy name flee before His face. But let Your people be in blessing, thousands of thousands, and ten thousand times ten thousands, doing Your will. O Lord, You shall open my lips; and my mouth shall declare Your praise. Amen. ALLELUIA.
+
+ <LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+		
+The First Watch 
+</Run>
+<LineBreak/>
+	
+The worshipper says:
+
+The praise of the first watch of the blessed Midnight Hour, we offer unto Christ our King and our God, beseeching Him to forgive us our sins.
+
+From the Psalms of our father David the prophet and the king, may his blessings be upon us all. Amen.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 3 
+</Run>
+<LineBreak/>
+O Lord, why have they who afflict me multiplied? Many have risen up upon me. Many say unto my soul, “There is no salvation for him in his God.” But You, O Lord, are my supporter, my glory, and the elevation of my head.
+
+With my voice I cried unto the Lord, and He heard me out of His holy mountain. I laid down and slept; and I arose; for the Lord is He who supports me. I will not be afraid of ten thousands of people, who surround me; who have risen upon me. Rise, O Lord, save me, O my God: for You have smitten all who are enemies to me without cause. The teeth of the sinners You have broken. Salvation is the Lord's, and His blessing is upon His people. ALLELUIA.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 6 
+</Run>
+<LineBreak/>
+O Lord, do not rebuke me in Your anger, nor chasten me in Your wrath. Have mercy on me, O Lord; for I am weak: heal me, O Lord, for my bones are troubled, and my soul is grievously troubled. But You, O Lord, how long? Return, deliver my soul: revive me for the sake of Your mercy. For in death there is no one who is remembering You: and in Hades who is able to confess to You? I became wearied in my groaning; I shall wash my bed every night; I shall wet my couch with my tears. My eye is troubled be­cause of anger; I have grown old because of all my enemies.
+
+Depart away from me, all who do iniquity; for the Lord has heard the voice of my weeping. The Lord has heard my petition; the Lord has accepted my prayer. All my enemies shall be put to shame and greatly troubled: they shall be turned back and put to shame speedily. ALLELUIA.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 12 
+</Run>
+<LineBreak/>
+How long, O Lord, do You forget me, for ever? How long do You turn Your face away from me? How long do I put these counsels in my soul, and these sorrows in my heart for the whole day? How long does my enemy exalt over me?
+
+Look, hearken to me, O Lord my God: enlighten my eyes, lest I sleep in death; lest my enemy say, “I have prevailed against him”: those who distress me will rejoice if ever I stumble. But I have hoped in Your mercy; my heart will rejoice in Your salvation. I will praise the Lord Who has done good to me, and I will sing to the name of the Lord Most High. ALLELUIA.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 69 
+</Run>
+<LineBreak/>
+O God, be mindful of my help: make haste, O Lord, to help me. Let them be ashamed and be scorned, those who seek my soul: let them be turned backward and put to shame, those who wish to do evil unto me. Let those who say to me, “Aha, aha,” be turned back in shame immediately. Let all who seek You exult and be glad in You: and let those who love Your salvation say continually, “Let the Lord be magnified.” But I am poor and weak; O God, help me: You are my Helper and Savior, O Lord, do not delay. ALLELUIA.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 85 
+</Run>
+<LineBreak/>
+Incline Your ear, O Lord, and hear me; for I am poor and weak. Preserve my soul, for I am pure; save Your servant, O my God, who hopes in You. Have mercy on me, O Lord: for to You I will cry the whole day. Rejoice the soul of Your servant: for to You, O Lord, I have lifted up my soul. For You, O Lord, are righteous, and gentle; and plenteous is Your mercy to all who call upon You. Give ear to my prayer, O Lord; and attend to the voice of my supplication. In the day of my trouble I cried to You: for You heard me.
+
+There is none like You, O Lord, among the gods; and there is none that is able to do Your works. All nations whom You have made shall come, and shall worship before You, O Lord; and shall glorify Your name. For You are great, and wondrous: You alone are the great God.
+
+Guide me, O Lord, in Your way, and I shall walk in Your truth: let my heart re­joice, that I may fear Your name. I will confess You, O Lord my God, with all my heart; and I will glorify Your name forever. For Your mercy is great toward me; and You have delivered my soul from the lowest Hades.
+
+O God, transgressors have risen up against me, and an assembly of violent men have sought my soul; and have not, at first, set You before them. But You, O Lord God, are compassionate and merciful, long-suffering, and abundant in mercy and true. Look down upon me, and have mercy on me: give strength to Your servant, and save the son of Your handmaid. Establish with me a sign for good; and let those who hate me see and be ashamed; because You, O Lord, have helped me, and com­forted me. ALLELUIA.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 90 
+</Run>
+<LineBreak/>
+He who dwells in the help of the Most High, shall rest under the shelter of the God of heaven. He shall say to the Lord, “You are my defender and my refuge: my God; I will hope in Him.” For He shall deliver you from the snare of the hunter, and from troublesome matter. He shall overshadow you in the midst of His shoulders, and you shall hope under His wings: His truth shall encompass you as a shield. You shall not be afraid of the terror of the night; nor of an arrow flying in the day; nor of a matter walking in darkness; nor of calamity and demon of noon-day. A thou­sand shall fall at your left hand, and ten thousand at your right hand; but they shall not be able to come near you. Only with your eyes shall you observe, and see the reward of sinners.
+
+For You, O Lord, are my hope: You have made the Most High your refuge. No evil things shall come upon you, and no plague shall draw near to your dwelling. For He shall give his angels charge concerning you, to keep you in all your ways. They shall bear you up on their hands, lest you stumble Your foot against a stone. You shall tread on the serpent and basilisk: and You shall tram­ple on the lion and dragon.
+
+For he has hoped in Me, and I shall deliver him: I shall protect him, because he has known My name. He shall beseech me, and I shall hear him: I am with him in affliction; and I shall deliver him, and glorify him. I shall satisfy him with length of days, and show him My salvation. ALLELUIA.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 116 
+</Run>
+<LineBreak/>
+Praise the Lord, all you nations: let all the peoples praise Him. For His mercy has been established upon us, and the truth of the Lord endures forever. ALLELUIA.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 117 
+</Run>
+<LineBreak/>
+Give thanks to the Lord; for He is good: for His mercy endures forever. Let now the house of Israel say that He is good: for His mercy endures forever. Let the house of Aaron say that He is good: for His mercy endures forever. Let now all who fear the Lord say that He is good: for His mercy endures forever.
+
+I called on the Lord in my affliction: and He answered me, and brought me into a broad place. The Lord is my helper; and I shall not fear what man will do to me. The Lord is my helper; and I shall look down upon my own enemies. It is better to trust in the Lord than to trust in man. It is better to hope in the Lord, than to hope in princes.
+
+All the nations surrounded me: and in the name of the Lord I drove them away. They surrounded me and went around me: and in the name of the Lord I drove them away. They surrounded me as bees around a honeycomb, and they burst as fire among thorns: and in the name of the Lord I drove them away. I was pushed, that I might fall: but the Lord helped me. My strength and my praise is the Lord, and He has become unto me a salvation.
+
+The voice of exultation and salvation is in the dwellings of the righteous: the right hand of the Lord has wrought mightily. The right hand of the Lord has exalted me: the right hand of the Lord has wrought powerfully. I shall not die, but live, and recount the works of the Lord. With chastisement the Lord has chastened me: and has not given me up to death.
+
+Open to me the gates of righteousness: that I will go into them, and praise the Lord. This is the gate of the Lord: the righteous shall enter into it. I will praise You, O Lord, because You have answered me, and have become unto me a salvation. The stone which the builders rejected has become the head of the corner. This has been done by the Lord; and it is wonderful in our eyes.
+
+This is the day which the Lord has made: let us rejoice and be glad in it. O Lord, save us: O Lord, ease our ways. Blessed is He who comes in the name of the Lord: we have blessed you from the house of the Lord. God the Lord has shined upon us: ordain a feast with those that reach the horns of the altar. You are my God, and I will give thanks to You: You are my God, and I will exalt You. I will give thanks to You, O Lord, for You have heard me, and have become unto me a salvation. Give thanks to the Lord; for He is good: for His mercy endures forever. ALLELUIA.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (I) 
+</Run>
+<LineBreak/>
+Blessed are the blameless in the way, who walk in the law of the Lord. Blessed are they who search out His testimonies: seeking Him with their whole heart. For they who work iniquity have not desired to walk in His ways. You have commanded that Your commandments be diligently kept. O that my ways were directed to keep Your ordinances! Then I shall not be ashamed, when I look on all Your commandments. I will give thanks to You, O Lord, with uprightness of my heart, when I have learned the judgments of Your righteousness. I will keep Your ordinances: do not exceedingly forsake me!
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (II) 
+</Run>
+<LineBreak/>
+Wherewith shall a young man straighten his way? by keeping Your words. With my whole heart I have sought You: do not cast me away from Your commandments. I have hidden Your words in my heart, that I might not sin against You. Blessed are You, O Lord: teach me Your ordinances. With my lips I have declared all the judgments of Your mouth. I have delighted in the way of Your testimonies, as much as in all richness. I shall speak of Your commandments, and consider Your ways. I will meditate on Your ordinances, and I shall not forget Your words.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (III) 
+</Run>
+<LineBreak/>
+Render a reward to Your servant: so I shall live, and keep Your words. Unveil my eyes, and I shall perceive wondrous things out of Your law. I am a stranger upon the earth: do not hide Your commandments from me. My soul has longed to desire Your judgments at all times. You have rebuked the proud: cursed are those who turn aside from Your commandments. Remove from me the reproach and the contempt; for I have sought out Your testimonies. For princes sat and spoke against me: but Your servant was meditating on Your ordinances. For Your testimonies are my meditation, and Your ordinances are my counsels.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (IV) 
+</Run>
+<LineBreak/>
+My soul has cleaved to the ground; revive me according to Your word. I declared Your ways, and You heard me: teach me Your ordinances. Instruct me in Your ordinances, and make known to me the way of Your righteousness; and I will meditate on Your wondrous works. My soul has slumbered from sorrow; strengthen me with Your words. Remove from me the way of iniquity; and be merciful to me by Your law. I have chosen the way of truth; and have not forgotten Your judgments. I have cleaved to Your testimonies, O Lord; do not put me to shame. I ran the way of Your commandments, when You enlarged my heart.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (V) 
+</Run>
+<LineBreak/>
+Set before me, O Lord, a law in the way of Your ordinances, and I will seek it out every time. Give me understanding, and I shall search out Your law, and shall keep it with my whole heart. Guide me in the path of Your commandments; for in this I have delighted. Incline my heart to Your testimonies, and not to covetousness. Turn away my eyes that I may not behold vanity: revive me in Your ways. Set Your word with Your servant in Your fear. Take away from me the reproach which I have feared: for Your judgments are sweet. Behold, I have desired Your commandments: revive me in Your righteousness.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (VI) 
+</Run>
+<LineBreak/>
+Let Your mercy come upon me, O Lord; and Your salvation, according to Your word. So I shall answer with a word those who reproach me: for I have trusted in Your words. Do not take the word of truth exceedingly out of my mouth; for I have hoped in Your judgments. And I will keep Your law every time, forever and ever. I walked also at large: for I sought out Your commandments. And I spoke of Your testimonies before the kings, and was not ashamed. And I meditated on Your commandments, those which I loved exceedingly. And I lifted up my hands up to Your commandments which I exceedingly loved; and I meditated upon Your ordinances.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (VII) 
+</Run>
+<LineBreak/>
+Remember Your words to Your servant, in which You have made me hope. This has comforted me in my affliction: for Your word is that which has revived me. The proud have transgressed exceedingly; but I did not incline away from Your law. I remembered Your judgments from the beginning, O Lord; and was comforted. Despair took hold of me, because of the sinners who forsook Your law. Your ordinances were songs for me in the place of my sojourning. I remembered Your name, O Lord, in the night, and kept Your law. This came unto me, because I sought Your ordinances.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (VIII) 
+</Run>
+<LineBreak/>
+You are my portion, O Lord: I said that I would keep Your commandments. I entreated Your face with my whole heart: have mercy on me according to Your word, for I meditated on Your ways, and turned my feet to Your testimonies. I prepared myself, and was not troubled, to keep Your commandments. The bonds of sinners entrapped me: but I did not forget Your law. At midnight I usually arise, to give thanks to You for the judgments of Your righteousness. I am the companion of all who fear You, and of all who keep Your commandments. O Lord, the earth is filled of Your mercy: teach me Your ordinances.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (IX) 
+</Run>
+<LineBreak/>
+You have done good with Your servant, O Lord, according to Your word. Teach me kindness, and instruction, and knowledge: for I have believed Your commandments. Before I was humbled, I became lazy; therefore I have kept Your word. Sweet are You, O Lord; and in Your goodness teach me Your ordinances. The injustice of the proud has been multiplied against me: but I shall search out Your commandments with all my heart. Their heart has been curdled like milk; but I have meditated on Your law. It is good for me that You have humbled me; that I might learn Your ordinances. The law of Your mouth is better to me than thousands of gold and silver.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (X) 
+</Run>
+<LineBreak/>
+Your hands have made me, and fashioned me: instruct me, that I will learn Your commandments. They who fear You shall see me and rejoice: for I have hoped in Your words. I know, O Lord, that Your judgments are righteousness, and that You truly have humbled me. Let, Your mercy come upon me to comfort me, according to Your word to Your servant. Let Your compassion come to me, that I shall live: for Your law is my meditation. Let the proud be ashamed: for they transgressed against me unjustly: but I shall be continually in Your commandments. Let those who fear You, and those who know Your wonders, turn to me. Let my heart be blameless in Your ordinances, that I may not be ashamed.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (XI) 
+</Run>
+<LineBreak/>
+My soul has fainted for Your salvation: and I have hoped in Your words. My eyes failed in waiting for Your word, saying, “When will You comfort me?” I have become as a bottle in the frost: but I have not forgotten Your ordinances. How many are the days of Your servant? When will You execute judgment for me on those who persecute me? Transgressors told me idle words; but not according to Your law, O Lord. For all Your commandments are truth; they persecuted me unjustly; help me. They nearly destroyed me upon the earth; but I did not forsake Your commandments. Revive me according to Your mercy; so I shall keep the testimonies of Your mouth.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (XII) 
+</Run>
+<LineBreak/>
+Your word, O Lord, abides in the heavens forever. Your truth endures from generation to generation; You have founded the earth, and it abides by Your command. The day also abides; for all things are Your servants. Were it not that Your law was my meditation, I would have perished in my humility. I shall never forget Your ordinances; for with them You have revived me. I am Yours, save me; for I have sought out Your ordinances. The sinners have waited for me to destroy me; but I understood Your testimonies. I have seen an end of every perfection; but Your commandments are very broad.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (XIII) 
+</Run>
+<LineBreak/>
+How beloved is Your name, O Lord! It is my meditation the whole day. You have instructed me more than my enemies in Your commandments; for they are mine forever. I have more understanding than all who teach me; for Your testimonies are my meditation. I understood more than the aged; because I sought out Your commandments. I have kept back my feet from every evil way, that I might keep Your words. I have not declined from Your judgments; for You have set a law for me. How sweet are Your words to my throat, more so than honey and honey comb in my mouth! I gain understanding from Your commandments: therefore I have hated every way of unrighteousness, for You have set a law for me.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (XIV) 
+</Run>
+<LineBreak/>
+Your law is a lamp to my feet, and a light to my paths. I have sworn and determined to keep the judgments of Your righteousness. I have been greatly humbled, revive me, O Lord, according to Your word. Bless, O Lord, the promises of my mouth, and teach me Your judgments. My soul is continually in Your hands; and I have not forgotten Your law. The sinners hid a snare for me; and I did not stray from Your commandments. I have inherited Your testimonies forever; for they are the joy of my heart. I have inclined my heart to perform Your righteousness forever, for the sake of a reward.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (XV) 
+</Run>
+<LineBreak/>
+I have hated transgressors; and I have loved Your law. You are my helper and my supporter; I have hoped in Your word. Turn away from me, you evil-doers; for I shall search out the commandments of my God. Uphold me according to Your word, and I shall live; and do not make me ashamed of my hope. Help me, and I shall be saved; and I shall meditate on Your ordinances continually. You have brought to nought all who turn away from Your ordinances; for their thought is an iniquity. I have reckoned all the sinners of the earth as transgressors; therefore I have loved Your testimonies at all times. Nail Your fear to my flesh; for I feared Your judgments.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (XVI) 
+</Run>
+<LineBreak/>
+I have done judgment and justice; do not deliver me to the hands of those who injure me. Accept Your servant unto You for good: do not let the proud say falsehood against me. My eyes have failed for Your salvation, and for the word of Your righteousness. Deal with Your servant according to Your mercy, and teach me Your ordinances. I am Your servant; instruct me, and I will know Your testimonies. It is the time to work for the Lord: they have utterly broken Your law. Therefore I have loved Your commandments more than gold and topaz. Therefore I stood for all Your commandments: I have hated every unjust way.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (XVII) 
+</Run>
+<LineBreak/>
+Your testimonies are wonderful: therefore my soul has kept them. The manifestation of Your words shall enlighten, and instruct the small children. I opened my mouth, and drew a spirit unto me: for I earnestly longed for Your commandments. Look upon me and have mercy on me, after the manner of those who love Your name. Make straight my steps according to Your word: and let not any iniquity have dominion over me. Deliver me from the false accusation of men: so I shall keep Your commandments. Let Your face shine upon Your servant: and teach me Your ordinances. My eyes have been bathed in the streams of waters, because they did not keep Your law.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (XVIII) 
+</Run>
+<LineBreak/>
+Righteous are You, O Lord, and upright are Your judgments. You have commanded justice and truth exceedingly, which are Your testimonies. The zeal has eaten me up: because my enemies have forgotten Your commandments. Your word has been very fully tried; and Your servant loves it. I am young and despised: yet I have not forgotten Your ordinances. Your righteousness is an everlasting righteousness, and Your word is truth. Afflictions and distresses found me: but Your commandments are my meditation. Your testimonies are righteousness forever: instruct me, and I shall live.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (XIX) 
+</Run>
+<LineBreak/>
+I cried with my whole heart; hear me, O Lord: I shall search out Your ordinances. I cried up to You; save me, and I shall keep Your testimonies. I hastened to arise before the time, and cried: and I hoped in Your word. My eyes hastened to awake before the dawn, that I might meditate on Your words. Hear my voice, O Lord, according to Your mercy; revive me according to Your judgments. They have drawn near who persecuted me in iniquity; and they are far removed from Your law. You are near, O Lord; and all Your commandments are truth. Since the beginning I knew from Your testimonies, that You had founded them forever.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (XX) 
+</Run>
+<LineBreak/>
+Look upon my humiliation, and save me: for I have not forgotten Your law. Plead my cause, and redeem me: revive me for the sake of Your word. Salvation is far from sinners: for they have not searched out Your ordinances. Your mercies, O Lord, are many: revive me according to Your judgments. Many are they who persecute me and distress me: but I did not turn away from Your testimonies. I beheld foolish men, and I suffered; for they did not keep Your words. Behold, O Lord, I have loved Your commandments: revive me in Your mercy. The beginning of Your words is truth; and all judgments of Your righteousness are forever.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (XXI) 
+</Run>
+<LineBreak/>
+Princes persecuted me without a cause, my heart was afraid of Your words. I will exult because of Your words, as one who has found a great treasure. I hated and abhorred unrighteousness; but I loved Your law. Seven times a day I have praised You because of the judgments of Your righteousness. Let great peace be for those who love Your law: and there is no stumbling in them. I waited for Your salvation, O Lord, and have loved Your commandments. My soul has kept Your testimonies, and loved them exceedingly. I have kept Your commandments and Your testimonies; and all my ways are before You, O Lord.
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+PSALM 118 (XXII) 
+</Run>
+<LineBreak/>
+Let my supplication come near before You; give me understanding according to Your word. Let my petition come before You, revive me according to Your word. Let my lips flow with praise, when You have taught me Your ordinances. Let my tongue speak of Your words; for all Your commandments are righteous. Let Your hand be for saving me; for I have desired Your commandments. I have longed for Your salvation, O Lord; and Your law is my meditation. My soul shall live and praise You; and Your judgments shall help me. I have gone astray like a lost sheep; seek Your servant; for I have not forgotten Your commandments. 
+
+Zoxa si Philanthrope.
+
+Glory to You, the Lover of mankind.
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+  THE HOLY GOSPEL ACCORDING TO ST. MATTHEW (CH. 25:1-13) 
+</Run>
+<LineBreak/>
+Then the kingdom of heaven shall be likened to ten virgins, who took their lamps, and went forth to meet the bridegroom. And five of them were wise, and five were foolish. Those who were foolish took their lamps, and took no oil with them: But the wise took oil in their vessels with their lamps. While the bridegroom was delayed, they all slumbered and slept. And at midnight there was a cry made, “Behold, the bridegroom is coming; go out to meet him.” Then all those virgins arose, and trimmed their lamps. And the foolish said unto the wise, “Give us of your oil; for our lamps are going out.” But the wise answered, saying, “No; lest there should not be enough for us and you: but go rather to those who sell, and buy for yourselves.” And while they went to buy, the bridegroom came; and those who were ready went in with him to the marriage: and the door was shut. Afterward the other vir­gins came also, saying, “Lord, Lord, open to us.” But he answered and said, “Verily I say unto you, I do not know you.” Watch therefore, for you know nei­ther the day nor the hour in which the Son of Man is coming.
+
+Glory to God forever. Amen.
+
+
+                    <Run Foreground="#FFC125">  
+  Tenoo oasht emmok o piekhristos nem pekyot en aghathos nem pi epnevma ethowab je akee ak soati emmon nai nan
+
+We worship You O Christ with Your Good Father and the Holy Spirit, for You have come and saved us.
+</Run>
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+
+                        1.  Behold, the Bridegroom is coming at midnight, blessed is the servant whom He finds watching. But he whom He finds sleeping is unworthy of going with Him. Therefore, take heed, O my soul, that you may not fall into deep sleep, and then be cast out of the Kingdom. But watch and cry out saying “Holy, Holy, Holy are You, O God; for the sake of the Theotokos, have mercy on us.”
+
+                    <Run Foreground="#FFC125">  
+
+Doxa Patri ke Eioa ke Agio Pnevmati
+
+Glory to the Father, and the Son, and the Holy Spirit.
+</Run>
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+2.  O my soul, be mindful of that awesome day, and wake up and light your lamp with the oil of joy, for you do not know when the voice will call upon you saying: “Behold, the Bridegroom is coming.” So, take heed, my soul, not to fall asleep, lest you stand outside knocking like the five foolish virgins. But watch, entreating that you may meet Christ the Lord with rich oil, and He may grant you the wedding of His true and heavenly glory.
+
+ 
+                    <Run Foreground="#FFC125">  
+Ke nin ke a ee ke ees toos e onas toan e oa noan ameen.
+
+Now and forever and unto the ages of all ages, Amen.
+
+                        </Run>
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+3.  You are the rampart of our salvation, O Theo
+tokos the Virgin, the mighty and impregnable fortress. Abolish the counsel of the adversaries, and transform the sorrow of your servants into joy. Fortify our city, defend our governors, and intercede for the peace of the world; for you are our hope, O Theotokos.
+
+                     <Run Foreground="#FFC125">  
+
+Ke nin ke a ee ke ees toos e onas toan e oa noan ameen.
+
+Now and forever and unto the ages of all ages, Amen.
+</Run>
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+4.  O Heavenly King, the Comforter, the Spirit of truth, who is present in all places and fills all, the treasury of good things and the Life-Giver, graciously come, and dwell in us and purify us from all defilement, O Good One, and save our souls.
+
+
+                    <Run Foreground="#FFC125">  
+Doxa Patri ke Eioa ke Agio Pnevmati
+
+Glory to the Father, and the Son, and the Holy Spirit.
+</Run>
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+5.  Just as You were with Your disciples, O Savior, and gave them peace, graciously come also and be with us, and grant us Your peace, and save us, and deliver our souls.
+
+ 
+                    <Run Foreground="#FFC125">  
+Ke nin ke a ee ke ees toos e onas toan e oa noan ameen.
+
+Now and forever and unto the ages of all ages, Amen.
+</Run>
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+6.  Whenever we stand in Your holy sanctuary, we are considered standing in heaven. O Theotokos, you are the gate of heaven, open for us the gate of mercy.
+
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+
+Then the worshipper prays:
+
+<LineBreak/>
+  Lord, hear us and have mercy on us and forgive us our sins. Amen. 
+
+  (Lord have mercy) 41 times
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+  HOLY HOLY HOLY 
+</Run>
+<LineBreak/>
+Holy Holy Holy. Lord of hosts. Heaven and earth are full of Your glory and honor. Have mercy on us, O God the Father, the Almighty O Holy Trinity, have mercy on us. O Lord, God of hosts, be with us. For we have no helper in our hardships and tribulations but You. Absolve, forgive, and remit, O God, our transgressions; those which we have committed willingly and those we have committed unwillingly, those which we have committed knowingly and those which we have committed unknowingly, the hidden and manifest, O Lord forgive us, for the sake of Your Holy name which is called upon us.
+
+Let it be according to Your mercy, O Lord, and not according to our sins.
+
+Make us worthy to pray thankfully:
+
+Our Father Who art in heaven ...
+<LineBreak/>
+                    </TextBlock>
+                    <TextBlock  Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="{StaticResource PhoneAccentBrush}">
+THE CONCLUSION OF EVERY HOUR 
+</Run>
+<LineBreak/>
+Have mercy on us, O God, and have mercy on us, who, at all times and in every hour, in heaven and on earth, is worshipped and glorified, Christ our God, the good, the long suffering, the abundant in mercy, and the great in compassion, who loves the righteous and has mercy on the sinners of whom I am chief; who does not wish the death of the sinner but rather that he returns and lives, who calls all to salvation for the promise of the blessings to come.
+
+Lord receive from us our prayers in this hour and in every hour. Ease our life and guide us to fulfill Your commandments. Sanctify our spirits. Cleanse our bodies. Conduct our thoughts. Purify our intentions. Heal our diseases. Forgive our sins. Deliver us from every evil grief and distress of heart. Surround us by Your holy angels, that, by their camp, we may be guarded and guided, and attain the unity of faith, and the knowledge of Your imperceptible and infinite glory. For You are blessed forever. Amen.
+                    </TextBlock>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

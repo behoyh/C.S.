@@ -1,0 +1,372 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Coptic_Agpeya.Terce"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="28"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="800" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="COPTIC AGPEYA-Terce" Style="{StaticResource PhoneTextNormalStyle}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ScrollViewer>
+                <StackPanel >
+                    <TextBlock Foreground="White" Margin="12,0,0,0" Width="Auto" Height="Auto" TextWrapping="Wrap">
+					         <Run Foreground="Maroon">
+						        INTRODUCTION TO EVERY HOUR
+					        </Run>
+					        <LineBreak/>
+
+					        In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.
+
+					        Kyrie eleison. Lord have mercy, Lord have mercy, Lord bless us. Amen.
+
+					        Glory to the Father, and to the Son, and to the Holy Spirit, now and forever and unto the ages of all ages. Amen.
+					        <LineBreak/>
+					        <Run Foreground="Maroon">
+						        THE LORD'S PRAYER 
+					        </Run>
+					        <LineBreak/>
+						        Make us worthy to pray thankfully:
+
+						        Our Father Who art in heaven; hallowed be Thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread.  And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil, in Christ Jesus our Lord. For Thine is the kingdom, the power and the glory, forever. Amen.
+					        <LineBreak/>
+                    </TextBlock>
+                    <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                        
+					        <Run Foreground="Maroon">
+ 						        THE PRAYER OF THANKSGIVING 
+					        </Run>
+					        <LineBreak/>
+					        Let us give thanks to the beneficent and merciful God, the Father of our Lord, God and Savior, Jesus Christ, for He has covered us, helped us, guarded us, accepted us unto Him, spared us, supported us, and brought us to this hour. Let us also ask Him, the Lord our God, the Almighty, to guard us in all peace this holy day and all the days of our life.
+
+					        O Master, Lord, God the Almighty, the Father of our Lord, God and Savior, Jesus Christ, we thank You for every condition, concerning every condition, and in every condition, for You have covered us, helped us, guarded us, accepted us unto You, spared us, supported us, and brought us to this hour.
+
+					        Therefore, we ask and entreat Your goodness, O Lover of mankind, to grant us to complete this holy day, and all the days of our life, in all peace with Your fear. All envy, all temptation, all the work of Satan, the counsel of wicked men, and the rising up of enemies, hidden and manifest, take them away from us, and from all Your people, and from this holy place that is Yours.
+
+					        But those things which are good and profitable do provide for us; for it is You Who have given us the authority to tread on serpents and scorpions, and upon all the power of the enemy.
+
+					        And lead us not into temptation, but deliver us from evil, by the grace, compassion and love of mankind, of Your Only-Begotten Son, our Lord, God and Savior, Jesus Christ, through Whom the glory, the honor, the dominion, and the adoration are due unto You, with Him, and the Holy Spirit, the Life-Giver, Who is of one essence with You, now and at all times, and unto the ages of all ages. Amen.
+					        <LineBreak/>
+                    </TextBlock>
+                    <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+					        <Run Foreground="Maroon">
+						        PSALM 50 
+					        </Run>
+					        <LineBreak/>
+					        Have mercy upon me, O God, according to Your great mercy; and according to the multitude of Your compassions blot out my iniquity. Wash me thoroughly from my iniquity, and cleanse me from my sin. For I am conscious of my iniquity; and my sin is at all times before me.
+
+					        Against You only I have sinned, and done evil before You: that You might be just in Your sayings, and might overcome when You are judged. For, behold, I was conceived in iniquities, and in sins my mother conceived me.
+
+					        For, behold, You have loved the truth: You have manifested to me the hidden and unrevealed things of Your wisdom. You shall sprinkle me with Your hyssop, and I shall be purified: You shall wash me, and I shall be made whiter than snow. You shall make me to hear gladness and joy: the humbled bones shall rejoice.
+
+					        Turn away Your face from my sins, and blot out all my iniquities. Create in me a clean heart, O God; and renew a right spirit in my inward parts. Do not cast me away from Your face; and do not remove Your Holy Spirit from me. Give me the joy of Your salvation: and uphold me with a directing spirit. Then I shall teach the transgressors Your ways; and the ungodly men shall turn to You.
+
+					        Deliver me from blood, O God, the God of my salvation: and my tongue shall rejoice in Your righteousness. O Lord, You shall open my lips; and my mouth shall declare Your praise. For if You desired sacrifice, I would have given it: You do not take pleasure in burnt offerings. The sacrifice of God is a broken spirit: a broken and humbled heart God shall not despise.
+
+					        Do good, O Lord, in Your good pleasure to Zion; and let the walls of Jerusalem be built. Then You shall be pleased with sacrifices of righteousness, offering, and burnt sacrifices: then they shall offer calves upon Your altar. ALLELUIA.
+				        <LineBreak/>
+                    </TextBlock>
+                    <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+
+                    The prayer of the third hour of the blessed day, we offer to Christ our King and our God, beseeching Him to forgive us our sins.
+
+                    From the Psalms of our father David the prophet and the king, may his blessings be upon us all. Amen.
+                    <LineBreak/>
+                    </TextBlock>
+                    <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    PSALM 19 
+                    </Run>
+                    <LineBreak/>
+                    The Lord shall hear you in the day of your trouble, the name of the God of Jacob defend you. He shall send you help from His Holy, and uphold you out of Zion. He shall remember all your sacrifices, and enrich your burnt offerings. The Lord shall grant you according to your heart, and fulfill all your counsel. We will confess your salvation, and in the name of our God we shall grow: the Lord shall fulfill all your petitions.
+
+                    Now I know that the Lord has saved His annointed: He shall hear him from His holy heaven, the salvation of His right hand is in mighty deeds. These in chariots, and these in horses, but in the name of the Lord our God we will grow. They are overthrown and fallen, but we risen, and set upright. O Lord, save Your king: and hear us in the day we call upon You. ALLELUIA.
+                    <LineBreak/>
+                    </TextBlock>
+                    <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    PSALM 22 
+                    </Run>
+                    <LineBreak/>
+                    The Lord is He who shepherds me; I shall need nothing. In a place of green pasture, there He has made me dwell: by the water of rest, He has tended me. He has restored my soul: He has guided me into the paths of righteousness, for His name's sake. Even if I walk in the midst of the shadow of death, I shall not fear evil things, for You are with me: Your rod and Your staff, these comfort me. You have prepared a table before me in the presence of those who afflict me: You have anointed my head with oil; and Your cup makes me drunk like power. Your mercy shall follow me all the days of my life: and my dwelling shall be in the house of the Lord unto length of days. ALLELUIA.
+                                        <LineBreak/>
+                    </TextBlock>
+                        <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    PSALM 23 
+                    </Run>
+                    <LineBreak/>
+                    The earth and its fullness are the Lord's; the world and all that dwell in it. He has founded it upon the seas, and prepared it upon the rivers.
+
+                    Who shall go up to the mountain of the Lord, and who shall stand in His holy place? He that is pure in his hands, and clean in his heart; who has not lifted up his soul in vanity, nor sworn deceitfully to his neighbor. He shall receive a blessing from the Lord, and mercy from God his Savior. This is the generation of those who seek the Lord, who seek the face of the God of Jacob.
+
+                    Lift up your gates, you princes, and be lifted up, you everlasting doors; and the king of glory shall come in. Who is this king of glory? The Lord who is strong and mighty, the Lord who is mighty in war. Lift up your gates, you princes; and be lifted up, you everlasting doors; and the king of glory shall come in. Who is this king of glory? The Lord of hosts, He is this king of glory. ALLELUIA.
+                    <LineBreak/>
+                    </TextBlock>
+                    <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    PSALM 25 
+                    </Run>
+                    <LineBreak/>
+                    Judge me, O Lord; for I have walked in my innocence: and trusted in the Lord, I shall not be weakened. Prove me, O Lord, and try me; purify my heart and my reins. For your mercy is before my eyes: and I am pleased with your truth. I have not sat with the vain council, nor shall I enter in with the transgressors. I have hated the assembly of evil doers; and shall not sit with ungodly men.
+
+                    I will wash my hands in purity, and go around Your altar, O Lord, to hear the voice of Your praise, and to speak of all Your wonderful works. O Lord, I have loved the beauty of Your house, and the dwelling place of Your glory. Do not destroy my soul toge­ther with the ungodly, nor my life with bloody men: in whose hands are iniquity, and their right hand is filled with bribe. But I have walked in my innocence: save me, and have mercy upon me. My foot stood in uprightness: in the con­gregations I will praise You, O Lord. ALLELUIA.
+                    <LineBreak/>
+                    </TextBlock>
+                    <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    PSALM 28 
+                    </Run>
+                    <LineBreak/>
+                    Bring to the Lord, O sons of God, bring to the Lord young rams; bring to the Lord glory and honor. Bring to the Lord glory to His name; worship the Lord in His holy court.
+
+                    The voice of the Lord is upon the waters: God of glory has thundered: the Lord is upon the many waters. The voice of the Lord is mighty; the voice of the Lord is in great beauty. The voice of the Lord breaks the cedar; the Lord will break the cedar of Lebanon. And He will beat them small like the calf of Lebanon; and the beloved one like a son of the unicorn. The voice of the Lord cuts a flame of fire. The voice of the Lord shakes the wilderness; the Lord will shake the wilderness of Kadesh. The voice of the Lord strengthens the deer, and will uncover the forests: and in His holy temple every one speaks of glory. The Lord dwells in the flood: and the Lord will sit as a king forever. The Lord will give strength to His people; the Lord will bless His people with peace. ALLELUIA.
+                    <LineBreak/>
+                    </TextBlock> 
+                        <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    PSALM 29 
+                    </Run>
+                    <LineBreak/>
+                    I will exalt You, O Lord; for You have accepted me, and not caused my enemies to rejoice over me. O Lord, my God, I cried to You, and You have healed me. O Lord, You have brought up my soul from Hades, You have delivered me from the hands of those who will go down to the pit.
+
+                    Sing to the Lord, all you His saints, and confess the remembrance of His holiness. For anger is in His wrath, but life in His favor: weeping shall be for the evening, but joy shall be in the morning.
+
+                    I said in my prosperity, I shall never be moved. O Lord, in Your will You gave strength to my beauty: but You turned away Your face from me, and I became troubled. To You, O Lord, I shall cry; and to my God I shall make supplication. What profit is there in my blood, when I go down to destruction? Shall the dust confess to You? or shall it declare Your truth?
+
+                    The Lord heard, and had mercy upon me; the Lord became to me a helper. You have turned my mourning into joy for me: You have rent off my sackcloth, and girded me with gladness; that my glory may sing praise to You, and I shall not be troubled at heart. O Lord, my God, I will confess to You forever. ALLELUIA.
+                    <LineBreak/>
+                    </TextBlock>
+                            <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    PSALM 33 
+                    </Run>
+                    <LineBreak/>
+                    I will bless the Lord at all times: His praise shall be continually in my mouth. My soul shall boast herself in the Lord: let the meek hear and rejoice. Magnify the Lord with me, and let us exalt His name together.
+
+                    I sought the Lord diligently, and He heard me, and delivered me from all my fear. Draw near to Him, and be enlightened: and your faces shall not be ashamed. This poor man cried, and the Lord heard him, and delivered him out of all his afflictions. The angel of the Lord will encamp round about those who fear Him, and will deliver them. Taste and see that the Lord is sweet: blessed is the man who hopes in Him. Fear the Lord, all you His saints: for there is no want to those who fear Him. The rich have become poor and they hungered: but those who seek the Lord shall not want any good thing.
+
+                    Come, you children, hear me: I will teach you the fear of the Lord. Who is the man that desires life, and is thinking to see good days? Keep your tongue from evil, and your lips from speaking guile. Turn away from evil, and do good; seek peace, and pursue it. For the eyes of the Lord are over the righteous, and His ears are bent to their prayer: but the face of the Lord is against those who do evil, to wipe out their memorial from upon the earth.
+
+                    The righteous cried, and the Lord heard them, and delivered them out of all their afflictions. The Lord is near to those who are contrite in their heart; and will save the lowly in spirit. Many are the afflictions of the righteous: but out of them all the Lord will deliver them. The Lord will keep all their bones: not one of them shall be broken. The death of the sinners is evil: and those who hate righteousness will grieve. The Lord will save the souls of His servants: and none of those who hope in Him shall grieve. ALLELUIA.
+                    <LineBreak/>
+                    </TextBlock>                    
+                                <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    PSALM 40 
+                    </Run>
+                    <LineBreak/>
+                    Blessed is he who thinks of the poor and needy: the Lord shall deliver him in an evil day. The Lord shall preserve him and keep him alive, and make him blessed on the earth, and not deliver him into the hands of his enemies. The Lord shall help him upon the bed of his pain; You have made all his bed in his sickness.
+
+                    I said, O Lord, have mercy on me; heal my soul; for I have sinned against You. My enemies have spoken evil against me, saying, “When shall he die, and his name perish?” And if he came to see me, he spoke in vanity; and his heart gathered unto him iniquity; he went forth and spoke in like manner. All my enemies whispered against me; against me they devised evil. They denounced a wicked word against me, saying, “Now that he lies, shall he not rise up again?” For even the man of my peace, he whom I trusted, who ate my bread, lifted up his heel against me.
+
+                    But you, O Lord, have mercy upon me, and raise me up, and I shall compensate them. In this I knew that You were delighted in me, because my enemy shall not rejoice over me. But because of my innocence You accepted me, and have established me before You forever. Blessed be the Lord God of Israel, from everlasting and to everlasting. So be it, so be it. ALLELUIA.
+                                    <LineBreak/>
+                    </TextBlock>
+                                    <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    PSALM 42 
+                    </Run>
+                    <LineBreak/>
+                    Judge me, O Lord, and avenge my case, against an impure nation: You shall deliver me from the unjust and crafty man. For You are my God and my strength: why have You cast me off? And why do I walk gloomingly, while the enemy oppresses me? Send forth Your light and Your truth: they have led me, and brought me to Your holy mountain, and to Your dwelling. And I will go into the altar of God, before the face of God who gladdens my youth: I will give praise to You with the harp, O God, my God.
+
+                    Why are you sad, O my soul? and why do you trouble me? Hope in God; for I will give thanks to Him. The salvation of my face is my God. ALLELUIA.
+                                        <LineBreak/>
+                    </TextBlock>
+                                        <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    PSALM 44 
+                    </Run>
+                    <LineBreak/>
+                    My heart has poured forth a good word: I will declare my works to the King: my tongue is a writer's pen, sharpened for writing. You are comely in beauty more than the sons of men: grace has been shed forth from Your lips: therefore God has blessed You forever.
+
+                    Gird Your sword upon Your thigh, O Mighty One, in Your comeliness, and in Your beauty; draw it, prosper, and reign, because of truth and meekness and righteousness; and Your right hand shall guide You wonderfully. Your arrows are sharp, O Mighty One, in the heart of the King's enemies; the nations shall fall under You.
+
+                    Your throne, O God, is for ever and ever: the scepter of Your kingdom is a scepter of uprightness. You have loved righteousness, and hated iniquity: therefore, God, Your God, has anointed You with the oil of gladness more than Your fellows.
+
+                    Myrrh and stacte and cassia are from Your garments, and out of the ivory palaces, with which they have gladdened You; Kings' daughters for Your honor. The queen stood by on Your right hand, clothed in a vestment wrought with gold work, and adorned in divers manners.
+
+                    Hear, O my daughter, and see, and incline your ear; forget your people, and your father's house. Because the King has desired your beauty; for indeed He is your Lord, and you shall worship Him. The daughters of Tyre shall worship Him with gifts; the rich of the people of the land shall supplicate His favor.
+
+                    All the glory of the daughter of the King is within, robed in golden fringed garments, adorned in various manners. Virgins shall be brought to the King after her: all her fellows shall be brought to Him. They shall be brought with gladness and exultation: they shall be brought into the King's temple. Instead of Your fathers, children shall be unto You: You shall make them princes over all the earth. They shall make mention of Your name from generation to generation: therefore the nations shall give praise to You, O God, forever, even forever and ever. ALLELUIA.
+                                        <LineBreak/>
+                    </TextBlock>
+                                            <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    PSALM 45
+                    </Run>
+                    <LineBreak/>
+                    God is our refuge and our strength; He is our help in the afflictions that have come heavily upon us. Therefore we shall not fear when the earth is troubled, and the mountains are removed into the heart of the seas. The waters have roared and been troubled, the mountains have been troubled by His might. The streams of the river gladden the city of God: the Most High has sanctified His dwelling. God is in the midst of her; she shall not be moved: God shall help her face. The nations were troubled, the kingdoms tottered: He gave forth His voice, the earth shook. The Lord, God of hosts, is with us; the God of Jacob is our helper.
+
+                    Come, you, and behold the works of the Lord, the wonders which He has set upon the earth. Putting an end to wars to the ends of the earth; He will crush their bows, and break their weapons, and burn their bucklers in the fire. Be still, and know that I am God: I will be exalted among the nations, I will be exalted upon the earth. The Lord God of hosts is with us; the God of Jacob is our helper. ALLELUIA.
+                                    <LineBreak/>
+                    </TextBlock>
+                                                <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    PSALM 46 
+                    </Run>
+                    <LineBreak/>
+                    Clap your hands, all you nations; shout to God with a voice of exultation. For the Lord is most high and fearful; He is a great king over all the earth. He has subdued peoples under us, and nations under our feet. He has chosen us for His inheritance, the beauty of Jacob He loved.
+
+                    God has ascended with a shout, and the Lord with a sound of a trumpet. Sing praises to our God, sing praises: sing praises to our King, sing praises; for God is king of all the earth. Sing praises with understanding, for the Lord reigned over all the nations: God sits upon His holy throne. Rulers of the people have assembled with God of Abraham: for God's mighty ones have been greatly exalted upon the earth. ALLELUIA.
+
+                    THE HOLY GOSPEL ACCORDING TO ST. JOHN (CH. 14:26-31  CH. 15:1-4) 
+
+                    When the Comforter, the Holy Spirit, Whom the Father will send in My name, has come, He shall teach you all things, and bring to your remembrance all things that I have said unto you. My peace I leave with you, My peace I give unto you: not as the world gives do I give unto you. Let not your heart be troubled, neither let it be afraid. You have heard how I said unto you, “I go away, and come again unto you.” If you loved Me, you would rejoice, because I said, “I go unto the Father”: for My Father is greater than I. And now I have told you before it comes to pass, that, when it comes to pass, you might believe. I will not talk much with you: for the prince of this world comes, and has nothing in Me. But that the world may know that I love the Father; and as the Father gave Me commandment, so I do: arise, let us go from here.
+
+                    I am the true vine, and My Father is the vinedresser. Every branch in Me that does not bear fruit He takes away: and every branch that bears fruit He prunes, that it may bring forth more fruit. Now you are clean through the word which I have spoken unto you. Abide in Me, and I in you.
+
+                    Glory to God forever. Amen.
+
+
+
+                    <Run Foreground="#FFC125">
+                    Tenoo oasht emmok o piekhristos nem pekyot en aghathos nem pi epnevma ethowab je akee ak soati emmon nai nan
+
+                    We worship You O Christ with Your Good Father and the Holy Spirit, for You have come and saved us.
+                   </Run>
+                        <LineBreak/>
+                    </TextBlock>
+                    <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+
+                    1.  Your Holy Spirit, O Lord Whom You sent forth upon Your holy disciples and honored apostles in the third hour, do not take away from us, O Good One, but renew Him within us. Create in me a clean heart, O God, and renew a steadfast spirit within me. Do not cast me away from Your presence. And do not take Your Holy Spirit away from me.
+                    
+                    <LineBreak/>
+                    <Run Foreground="#FFC125">
+
+                    Doxa Patri ke Eioa ke Agio Pnevmati
+
+                    Glory to the Father, and the Son, and the Holy Spirit.
+                        </Run>
+                    <LineBreak/>
+                    </TextBlock>
+                    <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+
+                    2.  O Lord who sent down Your Holy Spirit upon Your holy disciples and Your honored apostles in the third hour, do not take Him away from us, O Good One, but we ask You to renew Him within us, O Lord Jesus Christ, Son of God, the Word; a steadfast and life giving spirit, a spirit of prophecy and chastity, a spirit of holiness, justice and authority, O the Almighty One, for You are the light of our souls. O Who shines upon every man that comes into the world, have mercy onme.
+
+                    <LineBreak/>
+ 
+                    <Run Foreground="#FFC125">
+                    Ke nin ke a ee ke ees toos e onas toan e oa noan ameen.
+
+                    Now and forever and unto the ages of all ages, Amen.
+                    </Run>
+                                        <LineBreak/>
+                    </TextBlock>
+                    <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+
+                    3.  O Theotokos, you are the true vine who bore the Cluster of Life, we ask you, O full of grace, with the apostles, for the salvation of our souls. Blessed is the Lord our God. Blessed is the Lord day by day. He prepares our way, for He is God of our salvation.
+
+                    <LineBreak/>
+ 
+
+                    <Run Foreground="#FFC125">
+                    Ke nin ke a ee ke ees toos e onas toan e oa noan ameen.
+
+                    Now and forever and unto the ages of all ages, Amen.
+                        </Run>                
+                        <LineBreak/>
+                    </TextBlock>
+                        <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+
+                    4.  O Heavenly King, the Comforter, the Spirit of truth, who is present in all places and fills all, the treasury of good things and the Life-Giver, graciously come, and dwell in us and purify us from all defilement, O Good One, and save our souls.
+                    </Run>
+                    <LineBreak/>
+
+
+                    Doxa Patri ke Eioa ke Agio Pnevmati
+
+                    Glory to the Father, and the Son, and the Holy Spirit.
+                                        <LineBreak/>
+                    </TextBlock>
+                            <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+
+                    5.  Just as You were with Your disciples, O Savior, and gave them peace, graciously come also and be with us, and grant us Your peace, and save us, and deliver our souls.
+                    </Run>
+                    <LineBreak/>
+ 
+
+                    Ke nin ke a ee ke ees toos e onas toan e oa noan ameen.
+
+                    Now and forever and unto the ages of all ages, Amen.
+                                        <LineBreak/>
+                    </TextBlock>
+                                <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+                    6.  Whenever we stand in Your holy sanctuary, we are considered standing in heaven. O Theotokos, you are the gate of heaven, open for us the gate of mercy.
+                    </Run>
+                    <LineBreak/>
+                    Then the worshipper prays:
+
+                    Lord, hear us and have mercy on us and forgive us our sins. Amen. 
+
+                    (Lord have mercy) 41 times
+
+                    HOLY HOLY HOLY 
+
+                    Holy Holy Holy. Lord of hosts. Heaven and earth are full of Your glory and honor. Have mercy on us, O God the Father, the Almighty O Holy Trinity, have mercy on us. O Lord, God of hosts, be with us. For we have no helper in our hardships and tribulations but You. Absolve, forgive, and remit, O God, our transgressions; those which we have committed willingly and those we have committed unwillingly, those which we have committed knowingly and those which we have committed unknowingly, the hidden and manifest, O Lord forgive us, for the sake of Your Holy name which is called upon us.
+
+                    Let it be according to Your mercy, O Lord, and not according to our sins.
+
+                    Make us worthy to pray thankfully:
+
+                    Our Father Who art in heaven ...
+                                        <LineBreak/>
+                    </TextBlock>
+                                    <TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+                    <Run Foreground="Maroon">
+
+                    ABSOLUTION 
+                    </Run>
+                    <LineBreak/>
+                    O God of all compassion, and Lord of all comfort, who comforted us at all times with the comfort of Your Holy Spirit, we thank You for You raised us for prayer in this holy hour, in which You abundantly poured the grace of Your Holy Spirit upon Your holy disciples and honorable and blessed apostles, like tongues of fire.
+
+                    We ask and entreat You, O lover of mankind, to accept our prayers, and forgive our sins, and send forth upon us the grace of Your Holy Spirit, and purify us from all defilement of body and spirit.
+
+                    Change us into a spiritual manner of life, that we may walk in the Spirit and not fulfill the lusts of the flesh. And make us worthy to serve You with purity and righteousness all the days of our life. For  unto You is due glory, honor, and dominion, with Your good Father and the Holy Spirit, now and forever and unto the ages of all ages. Amen.
+
+                    THE CONCLUSION OF EVERY HOUR 
+
+                    Have mercy on us, O God, and have mercy on us, who, at all times and in every hour, in heaven and on earth, is worshipped and glorified, Christ our God, the good, the long suffering, the abundant in mercy, and the great in compassion, who loves the righteous and has mercy on the sinners of whom I am chief; who does not wish the death of the sinner but rather that he returns and lives, who calls all to salvation for the promise of the blessings to come.
+
+                    Lord receive from us our prayers in this hour and in every hour. Ease our life and guide us to fulfill Your commandments. Sanctify our spirits. Cleanse our bodies. Conduct our thoughts. Purify our intentions. Heal our diseases. Forgive our sins. Deliver us from every evil grief and distress of heart. Surround us by Your holy angels, that, by their camp, we may be guarded and guided, and attain the unity of faith, and the knowledge of Your imperceptible and infinite glory. For You are blessed forever. Amen.
+                    </TextBlock>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

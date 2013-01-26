@@ -1,0 +1,170 @@
+
+<TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="Maroon">
+Prayer Before Confession
+</Run>
+<LineBreak/>
+ 
+
+Holy Father, who wishes the repentance of sinners, promising to accept them back; look, O Lord, at this moment, at a sinful soul who had erred and lost her way in the valleys of transgressions for many years, and wherein she was embittered and wretched for being removed from the fountain of her salvation.
+
+Yet now she comes forth to Thee, asking to be cleansed from all defilement and filth that sullied her. Accept and reject her not, for whether Thou look at her with compassion and deal with her mercifully she will be cleansed and saved; or whether Thou neglect her she will perish.
+
+Grant me grace to come near Thee with faith unshaken and full of hope to confess my trespasses and despise them. Let Thy spirit reprove me for my sins.
+
+Enlighten my heart that I may see how greatly did I err, misbehave, and forsake the way.
+
+Grant me determination to forsake evil that I may be established in Thy commandments and live to glorify Thy Holy Name. Amen.
+
+<LineBreak/>
+</TextBlock>
+<TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="Maroon">
+Prayer After Confession
+</Run>
+<LineBreak/>
+ 
+
+I thank Thy goodness, O Lover-of-man, because Thou did not wish my perdition, but have awakened me from my neglect and guided me to Thy path.
+
+Thou have brought me back from the valley of destruction to the safety of Thy bosom, so, fill me with hope and faith. I have come to thee a sick person to the Physician, hungry and needy to the Food of plenty, thirsty to the Spring of living Water, poor to the Source of riches, sinner to the Saviour, dead to the Fountain of Life; for Thou art my salvation, my healer, my life, my strength, my comfort, my happiness, and my rest is in Thee.
+
+So help me, protect me, and teach me to put my will in Thy hands, that I may walk according to Thy will. Help my weakness that I May be firm and continue to be faithful to Thee till the end. Amen.
+
+<LineBreak/>
+</TextBlock>
+<TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="Maroon">
+Prayer Before Communion
+</Run>
+<LineBreak/> 
+
+O Lord, I am not worthy that Thou should come under the roof of my house, for I am sinful, but say Thou first a word and my soul shall be healed. Say unto my soul: "Your sins are forgiven." I am barren and wanting all righteousness, and have but Thy compassion, mercy and Love-of-Man. And Thou hast condescended from the heaven of Thine ineffable glory to our afflictions and accepted to be born in a manger.
+
+Reject not, O my blessed Saviour to come into my lowly and afflicted soul that awaits Thy radiant presence. But accept to come into my soul to cleanse it.
+
+O Thou who disdained not to enter into the leper's house and to heal him, forbid me not to approach Thy pure Body and Thy Holy Blood, O Thou who prevented not the woman, who was a sinner, from kissing they feet.
+
+Let my communion be for partaking with Thee and for effacing all defilement, the mortification of my lusts, the doing of Thy Life-giving commandments, the healing of my soul and body from all sins, the acceptance of Thy gifts, the endwelling of Thy grace, the descent of Thy spirit for union with and abiding in Thee, that I may live for the glory of Thy Holy Name. Amen.
+
+<LineBreak/>
+</TextBlock>
+<TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="Maroon">
+Prayer before Communion
+</Run>
+<LineBreak/>
+ 
+
+Jesus Christ, Lord of Life & God All Mighty, thou art the true live bread who descended from heaven and thou blessed with life those who receive your Holy flesh and blood.
+
+Bestow upon thy servant heavenly blessings to enable me to receive your holy flesh and blood with due respect and humbleness.
+
+Alert my heart with grace and grant me your salvation so that I may taste the sweetness of your heavenly grace which is wholly hidden in this sacred secret.
+
+Grant me faith free from doubt or questioning so as to commence to you with unfailing faith and believing that this is your holy flesh and blood Emmanuel our Lord. Prepare me to receive Holy communion without falling into judgment but to unite me spiritually with you for forgiveness of my sins and for my accepted presence at your fearful kingdom. Glory to You, the Father and the Holy Spirit now and until eternity, Amen.
+
+<LineBreak/>
+</TextBlock>
+<TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="Maroon">
+Prayer After Communion
+</Run>
+<LineBreak/>
+ 
+
+My heart has been filled with joy and my tongue with rejoicing. Let my spirit glorify the Lord, and my soul rejoice in God my Savior. I have drawn nigh to Thee, O Lord, to clothe me with a radiant garment and make me worthy to enter into Thy wedding.
+
+Let my union with Thee today be forever, for through it I increase and grow firm in virtue, wax strong in faith, and strengthen my hope. Let it become a sign of salvation, a raiment of grace, a garment of the new birth, a purity and righteousness of body and soul, a cleansing of love, an eternal happiness and joy, a good answer before Thy dreadful tribune.
+
+I commit myself to Thy compassion to make me one with Thee and under Thy will. I call forth my mind and my senses to Thee. My will do Thou bless to obey Thy will.
+
+Enliven my heart and awaken my conscience. Disperse the fantasies of the adversaries. Still the tempest. Walk with me and calm my terror. Quench my thirst, kindle the flame of Thy love in my heart. Abide with me for the day is far spent, and accompany me until daybreak. For Thou are my goal and my happiness. Thou alone, O Lord, forever. Amen.
+
+<LineBreak/>
+</TextBlock>
+<TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="Maroon">
+Prayer after Communion
+</Run>
+<LineBreak/>
+ 
+
+O God, how great is the gift that you saved for your fearers. How sweet is your grace to those who love you.
+
+I thank you my Lord for looking after me, You granted me this holy food that doesn’t perish, by which you opened to us the way to eternal life.
+
+Kindle the flames of your love in me, save the blessing of Your grace in my heart not for judgment or to fall into judging but to receive glory, purity of soul and body and to live with you, survive for you and continue with your grace. So guide me to your holiness and fill me with your grace and consecrate me with your soul. Glory to You, the Father and the Holy Spirit now and until eternity, Amen.
+
+
+<LineBreak/>
+</TextBlock>
+<TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="Maroon">
+Prayer Before Meals
+</Run>
+<LineBreak/>
+ 
+
+Blessed art Thou, O Lord who supported us from our youth and granted unto us Thy blessings, and prepared food for every creature; for the eyes of all await Thee, Thou who gave them their food in due season.
+
+Thou open Thine hands and fill all living things. To Thee is due glory, praise, blessing and thanksgiving for the food that Thou hast prepared for us. Stretch forth Thy right hand and bless this food set before us for the nourishment of our bodies. Let it be for power and health of our lives.
+
+Grant salvation, grace, blessing and purity to all those who partake thereof. Lift our minds to Thee at all times to seek our spiritual and eternal food. Grant that we may labour for the everlasting food which is for life eternal. Grant us to be partakers of Thy evening banquet.
+
+Grant us the food of blessing, the cup of salvation, and fill our hearts with joy. Grant us a peaceful life, joy of the soul and health of the body.
+
+Teach us to seek Thy pleasure in all things so that when eating, drinking or labouring, we do it all for the glory of Thy Holy Name. For Thine is the glory for ever and ever. Amen.
+
+
+<LineBreak/>
+</TextBlock>
+<TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="Maroon">
+Prayer after Meals
+</Run>
+<LineBreak/> 
+
+We thank you O Lord, God the Almighty, for this dining table, which is a proof of your love for all of us your servants, who gained from the good of the earth..
+
+We ask you our Master, bless what is left from us, as the blessing of the five loaves and the two fish..  which fed many gathering in the wilderness..
+
+Be our help and strength, we who receive it & those who showed their mercy to us, those who served us, and those who ate with us..
+
+
+<LineBreak/>
+</TextBlock>
+<TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="Maroon">
+Prayer Before Studying
+</Run>
+<LineBreak/> 
+
+Most blessed Lord, send the grace of Your Holy Spirit on me to strengthen me that I may learn well the subject I am about to study and by it become a better person for Your glory, the comfort of my family and the benefit of Your Church and our Nation. Amen
+
+Christ, the true light, who enlightens and sanctifies every person coming into the world, let the light of Your countenance shine upon me (us) that I (we) may see Your unapproachable light; and guide my (our) steps in the way of Your commandments, through the intercessions of Your all-holy Mother and of all the Saints. Amen.
+
+<LineBreak/>
+</TextBlock>
+<TextBlock Foreground="White" Width="Auto" Height="Auto"  TextWrapping="Wrap">
+<Run Foreground="Maroon">
+
+Prayer After Studying
+</Run>
+<LineBreak/>
+ 
+
+I thank You, Lord our God, that again on this occasion You have opened my eyes to the light of Your wisdom.
+
+You have gladdened my heart with the knowledge of truth. I entreat You, Lord, help me always to do Your will.
+
+Bless my soul and body, my words and deeds.
+
+Enable me to grow in grace, virtue and good habits, that Your name may be glorified, Father, Son and Holy Spirit, now and forever. Amen.
+
+
+
+Grant then O Lord your rewards of salvation..  And compensate them for their hard work..
+
+For Your Holy Name is blessed and full of grace, O Father, Son and the Holy Spirit, now and forever until eternity. Amen
+<TextBlock/>
