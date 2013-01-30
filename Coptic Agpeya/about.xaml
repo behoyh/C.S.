@@ -7,68 +7,70 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
-    FontSize="{StaticResource PhoneFontSizeLarge}"
+    FontSize="{StaticResource PhoneFontSizeSmall}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent" Margin="0,-54,0,0">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+    <Grid x:Name="LayoutRoot" Background="Transparent" Margin="0,10,0,-1">
+  
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="COPTIC AGPEYA" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="about" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,83,0,25" Grid.ColumnSpan="3">
+
+            <TextBlock x:Name="PageTitle" Text="about" Margin="9,-110,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid x:Name="resizableGrid" Width="450" Grid.Row="0" Margin="20,119,10,10" >
             <ScrollViewer>
-                <TextBlock Height="747" HorizontalAlignment="Left" Name="textBlock1" VerticalAlignment="Top" Width="438" TextWrapping="Wrap" >
-                <Run FontSize="28">
-                In the name of the Father, the Son and the Holy Spirit one God amen.
-                 </Run>
-                    <LineBreak/>
-                    <LineBreak/>
-                Thank the Lord who gave us the ability to build this application. We hope it brings you nearer to God, and encourages you to pray anywhere. 
-                For any new ideas, comments, complaints or bugs; 
-                    <LineBreak/>
-                contact btsmarco at: 
-                  <LineBreak/>
-                <Run Foreground="{StaticResource PhoneAccentBrush}">      
-                  btsmarco@gmail.com                              
-                    
-                @btsmarco
-                </Run>
-                   <LineBreak/> 
-                    <Run/>
-                    or contact BehoyH at:
-                    <LineBreak/>
-                   <Run Foreground="{StaticResource PhoneAccentBrush}">
-                   beshoyhanna@outlook.com 
-                   @Behoy_H
-                   </Run> 
-                </TextBlock>
-            </ScrollViewer>
+            <Viewbox Stretch="Uniform" Margin="0,0,0,-314">
+                <TextBlock Width="21" Height="74" TextWrapping="Wrap" FontSize="2" >
+            		<Run Text="In the name of the Father, the Son and "/>
+            		<LineBreak/>
+            		<Run Text="the Holy Spirit one God amen."/>
+            		<LineBreak/>
+            		<LineBreak/>
+            		<Run Text=" Thank the Lord who gave us the ability to "/>
+            		<LineBreak/>
+            		<Run Text="build this application. We hope it brings you nearer to God, and encourages you to pray "/>
+            		<LineBreak/>
+            		<Run Text="anywhere. For any new ideas, comments, "/>
+            		<LineBreak/>
+            		<Run Text="complaints or bugs; "/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run Text=" contact btsmarco at: "/>
+            		<Run Text=" @theosseeker "/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run/>
+            		<Run Text=" or contact BehoyH at: "/>
+            		<Run Text=" @Behoy_H "/>
+            		<LineBreak/>
+            		<Run/>
 
+                </TextBlock>
+            </Viewbox>
+            </ScrollViewer>
         </Grid>
+       
     </Grid>
  
     <!--Sample code showing usage of ApplicationBar-->
-    <!--<phone:PhoneApplicationPage.ApplicationBar>
+    <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
             <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
             <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
             <shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
-                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+                <shell:ApplicationBarMenuItem Text="Change Text Size" Click="dialogbox"/>
+                <shell:ApplicationBarMenuItem Text="Switch Themes"/>
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>-->
+    </phone:PhoneApplicationPage.ApplicationBar>
 
 </phone:PhoneApplicationPage>

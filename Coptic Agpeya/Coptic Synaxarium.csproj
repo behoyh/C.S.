@@ -112,9 +112,13 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="customButton2.cs" />
     <Compile Include="MainPiv.xaml.cs">
       <DependentUpon>MainPiv.xaml</DependentUpon>
     </Compile>
+    <Compile Include="messagePrompt.cs" />
+    <Compile Include="messagePrompt_2.cs" />
+    <Compile Include="messagePrompt_Completed.cs" />
     <Compile Include="Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
     </Compile>
@@ -245,6 +249,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="README_FIRST.txt" />
+    <Content Include="icons\appbar.next.restup.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
